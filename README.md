@@ -36,25 +36,29 @@ To test your program, use the Blast scores: Match = 5, Mismatch = -4,
 and Indel = -8. The score between two spaces is 0.
 
 (iii) Test your program on the following four sets of sequences:
---- 1 
+
+     1.
      NM_013096.  Rattus norvegicus hemoglobin alpha, adult chain 2 (Hba-a2),
                  mRNA. 556 bps.
      NM_008218.  Mus musculus hemoglobin alpha, adult chain 1 (Hba-a1), 
                  mRNA. 569 bps.
      NM_000558.  Homo sapiens hemoglobin, alpha 1 (HBA1), mRNA. 627 bps.
---- 2
+     
+     2.
      NM_010019.  Mus musculus death-associated protein kinase 2 (Dapk2),
                 mRNA, 1792 bps.
      NM_001243563. Sus scrofa death-associated protein kinase 2 (DAPK2),
                 mRNA, 1825 bps.
      NM_014326. Homo sapiens death-associated protein kinase 2 (DAPK2), 
                 mRNA, 2628 bps.
---- 3
+                
+     3.
      NM_000545. Homo sapiens HNF1 homeobox A (HNF1A), mRNA. 3417 bps
-NM_008261. Mus musculus hepatic nuclear factor 4 (Hnf4). 4391 bps
+     NM_008261. Mus musculus hepatic nuclear factor 4 (Hnf4). 4391 bps
      NM_000457. Homo sapiens hepatocyte nuclear factor 4, alpha (HNF4A), 
                 transcript variant 2, mRNA. 4737 bps
---- 4
+                
+     4.
      NM_000492. Homo sapiens cystic fibrosis transmembrane conductance
                 regulator (ATP-binding cassette sub-family C, member 7) 
                 (CFTR), mRNA. 6132 bps
@@ -85,7 +89,7 @@ loooong :-).
 
 Although this question is optional for HW2, it could be a very good idea
 that you complete the dynamic programming routine for computing the 
-optimal score of a 3-sequence alignment in O(m*n) space, and test it on
+optimal score of a 3-sequence alignment in O(m\*n) space, and test it on
 some small data to make sure that it is correct. The recurrence relation is
 given in Chapter 6.10 of the textbook. Note that this algorithm will need
 the dynamic programming algorithm for pairwise sequence alignment to 
