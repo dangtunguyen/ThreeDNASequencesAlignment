@@ -1,3 +1,5 @@
+# Project Description
+
 We will discuss a space-saving technique for pairwise sequence alignment
 based on divide-and-conquer in the lectures. The technique can be easily
 extended to multiple sequence alignment. Your task is to design an
